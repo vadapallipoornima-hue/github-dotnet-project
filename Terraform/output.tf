@@ -3,5 +3,5 @@ output "webapp_name" {
 }
 
 output "webapp_url" {
-    value = azurerm_windows_web_app.webapp
+    value = azurerm_windows_web_app.webapp.default_hostname
 }
